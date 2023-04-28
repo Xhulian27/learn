@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-bottom: 40px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 3em;
+  font-family: Lora;
+  display: inline-block;
+}
+
+.learn {
+  width: 298px;
+  height: 260px;
+  display: inline-block;
+  background-color: blue;
+  margin: 12px 10px 30px 10px;
+  padding: 10px 15px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 12px;
+  margin-top: 257px;
+  margin-left: 108px;
+  background: #f00;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.learn1 {
+  background-image: url('../images/lion.png');
+}
+
+.learn2 {
+  background-image: url('../images/crocodile.jpeg');
+}
+
+.learn3 {
+  background-image: url('../images/tiger.jpg');
+}
+
+.learn4 {
+  background-image: url('../images/eagle.jpg');
+}
+
+.learn5 {
+  background-image: url('../images/komodo-dragon.jpg');
+}
+
+.learn6 {
+  background-image: url('../images/jaguar.jpg');
+}
+
+.learn7 {
+  background-image: url('../images/python.jpg');
+}
+
+.learn8 {
+  background-image: url('../images/leopard.jpg');
+}
+
+.learn9 {
+  background-image: url('../images/wolf.jpg');
+}
+
+.learn10 {
+  background-image: url('../images/hyena.jpeg');
+}
+
+.learn11 {
+  background-image: url('../images/cougar.jpg');
+}
+
+.learn12 {
+  background-image: url('../images/cobra.jpg');
+}
+
+
+
+

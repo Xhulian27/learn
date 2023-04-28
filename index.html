@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div class="project">
+    <header>
+      <a href="#" class="logo">LEARN</a>
+        <nav>
+          <ul>
+            <li id="home"><a href="">Home</a></li>
+            <li><a href="#" onclick="openAbout()">About</a></li>
+            <li><a href="#" onclick="openCategory()">Category</a></li>
+            <li><a href="#" onclick="openContactUs()">Contact Us</a></li>
+          </ul>
+          
+          <div class="popup" id="popup">
+            <div class="popup-content">
+              <h3>About LEARN Website</h3>
+              <p class="p-tg">LEARN is a website where you can get
+                information about lot of historical events</p>
+              <button class="close-btn" onclick="closeAbout()">X</button>
+            </div>
+          </div>
+          
+          <div class="popup" id="popup-2">
+              <div class="popup-content">
+                <h3>Category</h3>
+                <p class="p-tg">Physics, Astronomy, History, Geography</p>
+                <button class="close-btn" onclick="closeCategory()">X</button>
+              </div>
+          </div>
+        
+          <div class="popup" id="popup-3">
+            <div class="popup-content">
+              <h2>Contact Us</h2>
+              <form>
+                <label>Name:</label>
+                <input type="text">
+                <label>Email:</label>
+                <input type="email">
+                <label>Message:</label>
+                <textarea></textarea>
+                <button type="submit">Send</button>
+              </form>
+              <button class="close-btn" onclick="closeContactUs()">X</button>
+            </div>
+          </div>
+          
+        </nav>
+    </header>
+    <main>
+      <section class="col">
+        <p class="p-fbutton">Click on this button to learn more about history</p>
+        <button onclick="openDoc()" id="learn-btn" class="first-button">Start Learning</button>
+      </section>
+      <section class="col">
+        <div onclick="openPhysics" id="learn-physics" class="learn learn1"></div>
+        <div class="learn learn2"></div>
+        <div class="learn learn3"></div>
+        <div class="learn learn4"></div>
+      </section>
+    </main>
+  </div>
+  <script>
+  const homeListItem = document.getElementById('home');
+  
+  homeListItem.addEventListener('click', function() {
+    location.reload();
+  });
+  
+  function openAbout() {
+    document.getElementById("popup").style.display = "flex";
+  }
+  function closeAbout() {
+    document.getElementById("popup").style.display = "none";
+  }
+  
+  function openCategory() {
+    document.getElementById("popup-2").style.display = "flex";
+  }
+  function closeCategory() {
+    document.getElementById("popup-2").style.display = "none";
+  }
+  
+  function openContactUs() {
+    document.getElementById("popup-3").style.display = "flex";
+  }
+  function closeContactUs() {
+    document.getElementById("popup-3").style.display = "none";
+  }
+  
+  function openDocument() {
+    window.location.href = "history.html";
+  }
+  const startLearningBtn = document.getElementById("learn-btn");
+  startLearningBtn.addEventListener("click", openDocument);
+
+  function openPhysics() {
+    window.location.href = "physics.html";
+  }
+  const physicsInformation = document.getElementById("learn-physics");
+  physicsInformation.addEventListener("click", openPhysics);
+  </script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-bottom: 40px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Lora;
+  font-size: 3em;
+  display: inline-block;
+}
+
+.learn {
+  width: 298px;
+  height: 260px;
+  display: inline-block;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  margin: 12px 10px 30px 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: blue;
+}
+
+.learn1 {
+  background-image: url('../images/mechanics.png') ;
+}
+
+.learn2 {
+  background-image: url('../images/thermodynamics.png');
+}
+
+.learn3 {
+  background-image: url('../images/electromagnetism.png');
+}
+
+.learn4 {
+  background-image: url('../images/quantum-mechanics.png');
+}
+
+.learn5 {
+  background-image: url('../images/relativity.png');
+}
+
+.learn6 {
+  background-image: url('../images/particle-physics.png');
+}
+
+.learn7 {
+  background-image: url('../images/atomic-and-molecular-physics.png');
+}
+
+.learn8 {
+  background-image: url('../images/plasma-physics.png');
+}
+
+.learn9 {
+  background-image: url('../images/biophysics.jpg');
+}
+
+.learn10 {
+  background-image: url('../images/nonlinear-dynamics.png');
+}
+
+.learn11 {
+  background-image: url('../images/electrodynamics.jpg');
+}
+
+.learn12 {
+  background-image: url('../images/electromagnetic-waves.jpg');
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 257px;
+  margin-left: 108px;
+  background: #f00;
+  color: #fff;
+  padding: 3px 12px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}

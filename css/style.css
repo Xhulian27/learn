@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111;
+}
+
+.project {
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+#logo {
+  font-size: 3em;
+  color: #fff;
+  font-family: Arial;
+  text-decoration: none;
+  transition: 0.8s;
+}
+
+#logo:hover {
+  color: #f00;
+  transition: 0.8s;
+}
+
+header {
+  height: 12%;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 56px;
+  transition: 0.8s;
+}
+
+li:hover {
+  transform: translateY(-5px);
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.8s;;
+}
+
+nav ul li a:hover {
+  color: #f00;
+  transition: 0.8s;
+}
+
+.popup .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 2px 5px;
+  background: #111;
+  color: #fff;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  max-width: 500px;
+  text-align: center;
+  position: relative;
+}
+
+.popup-content h2, h3 {
+  font-family: Arial;
+  font-size: 1.4em;
+  margin-bottom: 6px;
+}
+
+.message {
+  display: inline-block;
+  text-align: center;
+  margin-top: 6px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.col {
+  flex-basis: 50%;
+}
+
+.p-fbutton {
+  font-family: Arial;
+  color: #fff;
+  font-size: 18px;
+}
+
+.first-button {
+  padding: 4px 4px 4px 4px;
+  width: 350px;
+  cursor: pointer;
+  height: 100px;
+  margin-top: 11px;
+  font-size: 25px;
+  color: #fff;
+  background: url('1.jpg');
+  transition: 0.5s;
+}
+     
+.first-button:hover {
+  background: #000;
+}
+
+.learn {
+  width: 200px;
+  height: 230px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 50px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.4s;
+}
+
+.learn1{
+  background-image: url('../images/ww1.jpeg');
+  margin-left: 135px;
+  cursor: pointer;
+}
+
+.learn2 {
+  background-image: url('../geography/images/geography.jpg');
+  cursor: pointer;
+}
+
+.learn3 {
+  background-image: url('../images/animals.png');
+  margin-left: 135px;
+  cursor: pointer;
+}
+
+.learn4 {
+  background-image: url('../astronomy/images/astronomy.jpeg');
+  cursor: pointer;
+}
+
+.learn:hover {
+  transform: translateY(-12px);
+}
+
+
+

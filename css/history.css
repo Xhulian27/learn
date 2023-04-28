@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-bottom: 40px;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  font-family: Lora;
+  font-size: 3em;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.learn {
+  width: 298px;
+  height: 260px;
+  display: inline-block;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  margin: 12px 10px 30px 10px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 257px;
+  margin-left: 108px;
+  background: #f00;
+  color: #fff;
+  padding: 3px 12px;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+button:active {
+  opacity: 0.8s;
+}
+
+#last-button {
+  transform: rotateY(-180deg);
+}
+
+.learn1 {
+  background-image: url('../images/ww1.jpeg');
+}
+
+.learn2 {
+  background-image: url('../images/ww2.jpeg');
+}
+
+.learn3 {
+  background-image: url('../images/october.jpeg');
+}
+
+.learn4 {
+  background-image: url('../images/napoleonwars.jpeg');
+}
+
+.learn5 {
+  background-image: url('../images/spain.jpeg');
+}
+
+.learn6 {
+  background-image: url('../images/constantinople.jpeg');
+}
+
+.learn7 {
+  background-image: url('../images/vietnam.jpeg');
+}
+
+.learn8 {
+  background-image: url('../images/balkan.jpeg');
+}
+
+.learn9 {
+  background-image: url('../images/balkan2.jpeg');
+}
+
+.learn10 {
+  background-image: url('../images/hitler.jpeg');
+}
+
+.learn11 {
+  background-image: url('../images/skanderbeg2.jpg');
+  transform: rotateY(180deg);
+}
+
+.learn12 {
+  background-image: url('../images/alexander-the-great.jpg');
+}
+
+
+

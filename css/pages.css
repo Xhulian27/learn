@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+h1 {
+  font-family: Lora;
+  text-align: center;
+}
+
+p {
+  font-family: Arial;
+  line-height: 30px;
+  margin-top: 5px;
+}
